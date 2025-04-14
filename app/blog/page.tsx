@@ -72,7 +72,7 @@ const allBlogPosts: BlogPost[] = [
     featured: true,
     tags: ["neural-interface", "brain-computer", "augmentation"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -87,7 +87,7 @@ const allBlogPosts: BlogPost[] = [
     featured: true,
     tags: ["consciousness", "ai-ethics", "metaverse"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -102,7 +102,7 @@ const allBlogPosts: BlogPost[] = [
     featured: true,
     tags: ["virtual-reality", "cybersecurity", "metaverse"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -116,7 +116,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neon-quantum-scape.png",
     tags: ["encryption", "cybersecurity", "quantum-computing"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -130,7 +130,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neon-augmented.png",
     tags: ["biotechnology", "augmentation", "neural-interface"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -144,7 +144,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neon-cityscape-vr.png",
     tags: ["virtual-reality", "neural-interface", "metaverse"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -158,7 +158,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neon-cityscape.png",
     tags: ["digital-art", "ai-ethics", "creativity"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -172,7 +172,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neon-circuit-city.png",
     tags: ["neural-interface", "cybersecurity", "privacy"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -186,7 +186,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neon-ghost.png",
     tags: ["ai-ethics", "consciousness", "emotions"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -200,7 +200,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neon-cityscape-grid.png",
     tags: ["consciousness", "metaverse", "digital-identity"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -214,7 +214,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neural-cityscape.png",
     tags: ["neural-interface", "augmentation", "biotechnology"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -228,7 +228,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neon-quantum-scape.png",
     tags: ["consciousness", "quantum-computing", "brain-computer"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -242,7 +242,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neon-augmented.png",
     tags: ["augmentation", "digital-art", "wearable-tech"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -256,7 +256,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neon-cityscape-vr.png",
     tags: ["virtual-reality", "interface-design", "augmentation"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -270,7 +270,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neon-cityscape.png",
     tags: ["digital-art", "ai-ethics", "neural-networks"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -284,7 +284,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neural-cityscape.png",
     tags: ["neural-interface", "augmentation", "brain-computer"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -298,7 +298,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neon-ghost.png",
     tags: ["metaverse", "consciousness", "digital-identity"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -312,7 +312,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neon-grid-breach.png",
     tags: ["cybersecurity", "neural-interface", "privacy"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -326,7 +326,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neon-circuit-city.png",
     tags: ["ai-ethics", "governance", "consciousness"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },
@@ -340,7 +340,7 @@ const allBlogPosts: BlogPost[] = [
     image: "/neon-augmented.png",
     tags: ["biotechnology", "synthetic-biology", "programming"],
     author: {
-      name: "Dr. Eliza Nexus",
+      name: "Dr. Marcus Nexus",
       image: "/neon-cityscape-portrait.png",
     },
   },

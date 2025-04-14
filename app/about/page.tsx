@@ -44,31 +44,31 @@ export default function AboutPage() {
       name: "Quantum Computing",
       level: 85,
       icon: <Cpu className="h-5 w-5" />,
-      color: "cyan",
+      color: "purple",
     },
     {
       name: "Digital Philosophy",
       level: 90,
       icon: <Zap className="h-5 w-5" />,
-      color: "blue",
+      color: "purple",
     },
     {
       name: "AR/VR Development",
       level: 80,
       icon: <Globe className="h-5 w-5" />,
-      color: "green",
+      color: "purple",
     },
     {
       name: "Cybersecurity",
       level: 75,
       icon: <Code className="h-5 w-5" />,
-      color: "red",
+      color: "purple",
     },
     {
       name: "AI Systems",
       level: 92,
       icon: <Network className="h-5 w-5" />,
-      color: "yellow",
+      color: "purple",
     },
   ];
 
@@ -196,7 +196,7 @@ export default function AboutPage() {
                 </div>
                 <div>
                   <h2 className="text-xl font-bold text-metallic-cyan">
-                    Dr. Eliza Nexus
+                    Dr. Marcus Nexus
                   </h2>
                   <p className="text-zinc-400">
                     Neural Interface Engineer & Digital Philosopher
@@ -382,7 +382,7 @@ export default function AboutPage() {
                                 <span>identity --scan --deep</span>
                               </div>
                               <div className="data-terminal-line">
-                                <span>Name: Dr. Eliza Nexus</span>
+                                <span>Name: Dr. Marcus Nexus</span>
                               </div>
                               <div className="data-terminal-line">
                                 <span>
@@ -548,156 +548,6 @@ export default function AboutPage() {
                             index={index}
                           />
                         ))}
-                      </div>
-
-                      {/* 3D Skill Visualization */}
-                      <div className="mt-12 border border-purple-900/50 rounded-lg p-4 bg-black/50">
-                        <h3 className="text-xl font-bold mb-4 text-future text-metallic-cyan">
-                          NEURAL SKILL NETWORK
-                        </h3>
-
-                        <div className="aspect-video relative overflow-hidden rounded">
-                          <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 to-cyan-900/20"></div>
-
-                          {/* Animated skill nodes */}
-                          <div className="absolute inset-0">
-                            {skills.map((skill, index) => {
-                              // Calculate position in a circular pattern
-                              const angle =
-                                (index / skills.length) * Math.PI * 2;
-                              const radius = 40;
-                              const x = 50 + radius * Math.cos(angle);
-                              const y = 50 + radius * Math.sin(angle);
-
-                              return (
-                                <motion.div
-                                  key={skill.name}
-                                  className={`absolute w-16 h-16 rounded-full bg-${skill.color}-900/30 border border-${skill.color}-500/50 flex items-center justify-center -ml-8 -mt-8`}
-                                  style={{ left: `${x}%`, top: `${y}%` }}
-                                  initial={{ scale: 0 }}
-                                  animate={{ scale: 1 }}
-                                  transition={{
-                                    duration: 0.5,
-                                    delay: index * 0.2,
-                                    type: "spring",
-                                  }}
-                                >
-                                  <div className={`text-${skill.color}-400`}>
-                                    {skill.icon}
-                                  </div>
-
-                                  {/* Pulsing effect */}
-                                  <motion.div
-                                    className={`absolute inset-0 rounded-full border border-${skill.color}-500/50`}
-                                    animate={{
-                                      scale: [1, 1.2, 1],
-                                      opacity: [1, 0, 1],
-                                    }}
-                                    transition={{
-                                      duration: 3,
-                                      repeat: Number.POSITIVE_INFINITY,
-                                      delay: index * 0.5,
-                                    }}
-                                  />
-                                </motion.div>
-                              );
-                            })}
-
-                            {/* Connection lines between skills */}
-                            <svg className="absolute inset-0 w-full h-full">
-                              {skills.map((skill, i) => {
-                                const angle1 =
-                                  (i / skills.length) * Math.PI * 2;
-                                const radius = 40;
-                                const x1 = 50 + radius * Math.cos(angle1);
-                                const y1 = 50 + radius * Math.sin(angle1);
-
-                                return skills.map((_, j) => {
-                                  if (i < j) {
-                                    // Only draw each connection once
-                                    const angle2 =
-                                      (j / skills.length) * Math.PI * 2;
-                                    const x2 = 50 + radius * Math.cos(angle2);
-                                    const y2 = 50 + radius * Math.sin(angle2);
-
-                                    return (
-                                      <motion.line
-                                        key={`${i}-${j}`}
-                                        x1={`${x1}%`}
-                                        y1={`${y1}%`}
-                                        x2={`${x2}%`}
-                                        y2={`${y2}%`}
-                                        stroke={`url(#gradient-${i}-${j})`}
-                                        strokeWidth="1"
-                                        strokeOpacity="0.3"
-                                        initial={{ pathLength: 0 }}
-                                        animate={{ pathLength: 1 }}
-                                        transition={{
-                                          duration: 1.5,
-                                          delay: 0.5 + (i + j) * 0.1,
-                                        }}
-                                      />
-                                    );
-                                  }
-                                  return null;
-                                });
-                              })}
-
-                              {/* Gradients for connection lines */}
-                              <defs>
-                                {skills.map((skill, i) => {
-                                  return skills.map((otherSkill, j) => {
-                                    if (i < j) {
-                                      return (
-                                        <linearGradient
-                                          key={`gradient-${i}-${j}`}
-                                          id={`gradient-${i}-${j}`}
-                                        >
-                                          <stop
-                                            offset="0%"
-                                            stopColor={`var(--${skill.color}-500)`}
-                                          />
-                                          <stop
-                                            offset="100%"
-                                            stopColor={`var(--${otherSkill.color}-500)`}
-                                          />
-                                        </linearGradient>
-                                      );
-                                    }
-                                    return null;
-                                  });
-                                })}
-                              </defs>
-                            </svg>
-
-                            {/* Central node */}
-                            <motion.div
-                              className="absolute left-1/2 top-1/2 w-24 h-24 rounded-full bg-black/70 border border-purple-500/50 flex items-center justify-center -ml-12 -mt-12"
-                              initial={{ scale: 0 }}
-                              animate={{ scale: 1 }}
-                              transition={{
-                                duration: 0.8,
-                                delay: 1,
-                                type: "spring",
-                              }}
-                            >
-                              <Brain className="h-10 w-10 text-purple-400" />
-
-                              {/* Pulsing effect */}
-                              <motion.div
-                                className="absolute inset-0 rounded-full border border-purple-500/50"
-                                animate={{
-                                  scale: [1, 1.2, 1],
-                                  opacity: [1, 0, 1],
-                                }}
-                                transition={{
-                                  duration: 2,
-                                  repeat: Number.POSITIVE_INFINITY,
-                                }}
-                              />
-                            </motion.div>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </motion.div>

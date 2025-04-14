@@ -10,7 +10,7 @@ export default function DigitalConsciousnessPage() {
       category="PHILOSOPHY"
       coverImage="/neon-ghost.png"
       authorImage="/neon-cityscape-portrait.png"
-      authorName="Dr. Eliza Nexus"
+      authorName="Dr. Marcus Nexus"
     >
       <p className="text-xl text-zinc-300 mb-8 leading-relaxed">
         As we approach the technological singularity, the possibility of uploading human consciousness into digital

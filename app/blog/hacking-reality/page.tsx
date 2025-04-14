@@ -10,7 +10,7 @@ export default function HackingRealityPage() {
       category="CULTURE"
       coverImage="/neon-grid-breach.png"
       authorImage="/neon-cityscape-portrait.png"
-      authorName="Dr. Eliza Nexus"
+      authorName="Dr. Marcus Nexus"
     >
       <p className="text-xl text-zinc-300 mb-8 leading-relaxed">
         As augmented reality systems become increasingly sophisticated and ubiquitous, the boundary between physical

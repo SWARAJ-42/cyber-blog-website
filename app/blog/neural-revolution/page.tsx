@@ -10,7 +10,7 @@ export default function NeuralRevolutionPage() {
       category="TECH"
       coverImage="/neural-cityscape.png"
       authorImage="/neon-cityscape-portrait.png"
-      authorName="Dr. Eliza Nexus"
+      authorName="Dr. Marcus Nexus"
     >
       <p className="text-xl text-zinc-300 mb-8 leading-relaxed">
         Brain-computer interfaces are fundamentally altering our relationship with technology, creating a symbiotic
