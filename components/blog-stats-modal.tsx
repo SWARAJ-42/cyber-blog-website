@@ -283,7 +283,7 @@ export function BlogStatsModal({ isOpen, onClose, post }: BlogStatsModalProps) {
 
                 {/* Action buttons */}
                 <div className="flex flex-col gap-3">
-                  <Link href={`/blog/${post.id}`}>
+                  <Link href={`/blog/neural-revolution`}>
                     <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white gap-2 text-future">
                       <Zap className="h-4 w-4" />
                       READ FULL ARTICLE

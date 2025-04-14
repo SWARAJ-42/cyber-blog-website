@@ -3,7 +3,7 @@ import "./globals.css"
 import { ScrollProgress } from "@/components/scroll-progress"
 
 export const metadata = {
-  title: "NEOCORTEX | Digital Frontier Blog",
+  title: "neocortex",
   description: "Exploring the intersection of technology, consciousness, and the future of humanity",
 }
 

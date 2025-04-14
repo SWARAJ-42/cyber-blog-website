@@ -87,12 +87,6 @@ export default function Home() {
                 BLOG
               </Link>
               <Link
-                href="#"
-                className="text-sm hover:text-cyan-400 transition-colors text-future"
-              >
-                PROJECTS
-              </Link>
-              <Link
                 href="/about"
                 className="text-sm hover:text-cyan-400 transition-colors text-future"
               >
@@ -326,7 +320,7 @@ export default function Home() {
             >
               <StaggeredItem>
                 <Link
-                  href="/blog/digital-consciousness"
+                  href="/blog/neural-revolution"
                   className="block h-full"
                 >
                   <div className="relative h-full group">
@@ -436,7 +430,7 @@ export default function Home() {
               staggerDelay={0.15}
             >
               <StaggeredItem>
-                <Link href="/blog/hacking-reality" className="block h-full">
+                <Link href="/blog/neural-revolution" className="block h-full">
                   <div className="relative h-full group">
                     <Card className="bg-zinc-900/50 border-purple-900/50 overflow-hidden hover:border-purple-500/50 transition-all duration-300 h-full z-10 relative">
                       <div className="relative h-48 overflow-hidden">
@@ -544,97 +538,99 @@ export default function Home() {
               staggerDelay={0.15}
             >
               <StaggeredItem>
-                <div className="relative h-full group">
-                  <Card className="bg-zinc-900/50 border-purple-900/50 overflow-hidden hover:border-purple-500/50 transition-all duration-300 h-full z-10 relative">
-                    <div className="relative h-36 overflow-hidden">
-                      <Image
-                        src="/neon-quantum-scape.png"
-                        alt="Quantum Encryption"
-                        fill
-                        className="object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
-                      <Badge className="absolute top-3 right-3 bg-yellow-500/80 hover:bg-yellow-500 text-white text-future">
-                        SECURITY
-                      </Badge>
-                    </div>
-                    <CardHeader className="pb-2">
-                      <h3 className="text-lg font-bold tracking-tight text-white group-hover:text-cyan-400 transition-colors text-future text-metallic-cyan">
-                        Quantum Encryption
-                      </h3>
-                    </CardHeader>
-                    <CardContent className="text-xs text-zinc-400">
-                      <p className="line-clamp-1">
-                        Post-quantum security protocols for the digital age.
-                      </p>
-                    </CardContent>
-                    <CardFooter>
-                      <Button
-                        variant="link"
-                        className="px-0 text-purple-400 hover:text-purple-300 text-sm text-future"
-                      >
-                        READ <ChevronRight className="h-3 w-3 ml-1" />
-                      </Button>
-                    </CardFooter>
-                  </Card>
-                  <motion.div
-                    className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100"
-                    initial={{ pathLength: 0, opacity: 0 }}
-                    animate={{ pathLength: 1, opacity: 1 }}
-                    transition={{
-                      duration: 2,
-                      repeat: Number.POSITIVE_INFINITY,
-                    }}
-                  >
-                    <svg
-                      className="absolute inset-0 w-full h-full"
-                      viewBox="0 0 100 100"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <motion.rect
-                        x="0"
-                        y="0"
-                        width="100"
-                        height="100"
-                        stroke="url(#laser-gradient-yellow)"
-                        strokeWidth="0.5"
-                        strokeLinecap="round"
-                        initial={{ pathLength: 0 }}
-                        animate={{ pathLength: 1 }}
-                        transition={{
-                          duration: 2,
-                          repeat: Number.POSITIVE_INFINITY,
-                        }}
-                      />
-                      <defs>
-                        <linearGradient
-                          id="laser-gradient-yellow"
-                          x1="0%"
-                          y1="0%"
-                          x2="100%"
-                          y2="100%"
+                <Link href="/blog/neural-revolution" className="block h-full">
+                  <div className="relative h-full group">
+                    <Card className="bg-zinc-900/50 border-purple-900/50 overflow-hidden hover:border-purple-500/50 transition-all duration-300 h-full z-10 relative">
+                      <div className="relative h-36 overflow-hidden">
+                        <Image
+                          src="/neon-quantum-scape.png"
+                          alt="Quantum Encryption"
+                          fill
+                          className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
+                        <Badge className="absolute top-3 right-3 bg-yellow-500/80 hover:bg-yellow-500 text-white text-future">
+                          SECURITY
+                        </Badge>
+                      </div>
+                      <CardHeader className="pb-2">
+                        <h3 className="text-lg font-bold tracking-tight text-white group-hover:text-cyan-400 transition-colors text-future text-metallic-cyan">
+                          Quantum Encryption
+                        </h3>
+                      </CardHeader>
+                      <CardContent className="text-xs text-zinc-400">
+                        <p className="line-clamp-1">
+                          Post-quantum security protocols for the digital age.
+                        </p>
+                      </CardContent>
+                      <CardFooter>
+                        <Button
+                          variant="link"
+                          className="px-0 text-purple-400 hover:text-purple-300 text-sm text-future"
                         >
-                          <stop
-                            offset="0%"
-                            stopColor="#0070F3"
-                            stopOpacity="0"
-                          />
-                          <stop
-                            offset="50%"
-                            stopColor="#EAB308"
-                            stopOpacity="1"
-                          />
-                          <stop
-                            offset="100%"
-                            stopColor="#0070F3"
-                            stopOpacity="0"
-                          />
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                  </motion.div>
-                </div>
+                          READ <ChevronRight className="h-3 w-3 ml-1" />
+                        </Button>
+                      </CardFooter>
+                    </Card>
+                    <motion.div
+                      className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100"
+                      initial={{ pathLength: 0, opacity: 0 }}
+                      animate={{ pathLength: 1, opacity: 1 }}
+                      transition={{
+                        duration: 2,
+                        repeat: Number.POSITIVE_INFINITY,
+                      }}
+                    >
+                      <svg
+                        className="absolute inset-0 w-full h-full"
+                        viewBox="0 0 100 100"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <motion.rect
+                          x="0"
+                          y="0"
+                          width="100"
+                          height="100"
+                          stroke="url(#laser-gradient-yellow)"
+                          strokeWidth="0.5"
+                          strokeLinecap="round"
+                          initial={{ pathLength: 0 }}
+                          animate={{ pathLength: 1 }}
+                          transition={{
+                            duration: 2,
+                            repeat: Number.POSITIVE_INFINITY,
+                          }}
+                        />
+                        <defs>
+                          <linearGradient
+                            id="laser-gradient-yellow"
+                            x1="0%"
+                            y1="0%"
+                            x2="100%"
+                            y2="100%"
+                          >
+                            <stop
+                              offset="0%"
+                              stopColor="#0070F3"
+                              stopOpacity="0"
+                            />
+                            <stop
+                              offset="50%"
+                              stopColor="#EAB308"
+                              stopOpacity="1"
+                            />
+                            <stop
+                              offset="100%"
+                              stopColor="#0070F3"
+                              stopOpacity="0"
+                            />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                    </motion.div>
+                  </div>
+                </Link>
               </StaggeredItem>
             </StaggeredList>
 
@@ -645,97 +641,99 @@ export default function Home() {
               staggerDelay={0.15}
             >
               <StaggeredItem>
-                <div className="relative h-full group">
-                  <Card className="bg-zinc-900/50 border-purple-900/50 overflow-hidden hover:border-purple-500/50 transition-all duration-300 h-full z-10 relative">
-                    <div className="relative h-36 overflow-hidden">
-                      <Image
-                        src="/neon-augmented.png"
-                        alt="Biotech Implants"
-                        fill
-                        className="object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
-                      <Badge className="absolute top-3 right-3 bg-red-500/80 hover:bg-red-500 text-white text-future">
-                        BIOTECH
-                      </Badge>
-                    </div>
-                    <CardHeader className="pb-2">
-                      <h3 className="text-lg font-bold tracking-tight text-white group-hover:text-cyan-400 transition-colors text-future text-metallic-purple">
-                        Biotech Implants
-                      </h3>
-                    </CardHeader>
-                    <CardContent className="text-xs text-zinc-400">
-                      <p className="line-clamp-1">
-                        The evolution of human enhancement technologies.
-                      </p>
-                    </CardContent>
-                    <CardFooter>
-                      <Button
-                        variant="link"
-                        className="px-0 text-purple-400 hover:text-purple-300 text-sm text-future"
-                      >
-                        READ <ChevronRight className="h-3 w-3 ml-1" />
-                      </Button>
-                    </CardFooter>
-                  </Card>
-                  <motion.div
-                    className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100"
-                    initial={{ pathLength: 0, opacity: 0 }}
-                    animate={{ pathLength: 1, opacity: 1 }}
-                    transition={{
-                      duration: 2,
-                      repeat: Number.POSITIVE_INFINITY,
-                    }}
-                  >
-                    <svg
-                      className="absolute inset-0 w-full h-full"
-                      viewBox="0 0 100 100"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <motion.rect
-                        x="0"
-                        y="0"
-                        width="100"
-                        height="100"
-                        stroke="url(#laser-gradient-red)"
-                        strokeWidth="0.5"
-                        strokeLinecap="round"
-                        initial={{ pathLength: 0 }}
-                        animate={{ pathLength: 1 }}
-                        transition={{
-                          duration: 2,
-                          repeat: Number.POSITIVE_INFINITY,
-                        }}
-                      />
-                      <defs>
-                        <linearGradient
-                          id="laser-gradient-red"
-                          x1="0%"
-                          y1="0%"
-                          x2="100%"
-                          y2="100%"
+                <Link href="/blog/neural-revolution" className="block h-full">
+                  <div className="relative h-full group">
+                    <Card className="bg-zinc-900/50 border-purple-900/50 overflow-hidden hover:border-purple-500/50 transition-all duration-300 h-full z-10 relative">
+                      <div className="relative h-36 overflow-hidden">
+                        <Image
+                          src="/neon-augmented.png"
+                          alt="Biotech Implants"
+                          fill
+                          className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
+                        <Badge className="absolute top-3 right-3 bg-red-500/80 hover:bg-red-500 text-white text-future">
+                          BIOTECH
+                        </Badge>
+                      </div>
+                      <CardHeader className="pb-2">
+                        <h3 className="text-lg font-bold tracking-tight text-white group-hover:text-cyan-400 transition-colors text-future text-metallic-purple">
+                          Biotech Implants
+                        </h3>
+                      </CardHeader>
+                      <CardContent className="text-xs text-zinc-400">
+                        <p className="line-clamp-1">
+                          The evolution of human enhancement technologies.
+                        </p>
+                      </CardContent>
+                      <CardFooter>
+                        <Button
+                          variant="link"
+                          className="px-0 text-purple-400 hover:text-purple-300 text-sm text-future"
                         >
-                          <stop
-                            offset="0%"
-                            stopColor="#0070F3"
-                            stopOpacity="0"
-                          />
-                          <stop
-                            offset="50%"
-                            stopColor="#EF4444"
-                            stopOpacity="1"
-                          />
-                          <stop
-                            offset="100%"
-                            stopColor="#0070F3"
-                            stopOpacity="0"
-                          />
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                  </motion.div>
-                </div>
+                          READ <ChevronRight className="h-3 w-3 ml-1" />
+                        </Button>
+                      </CardFooter>
+                    </Card>
+                    <motion.div
+                      className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100"
+                      initial={{ pathLength: 0, opacity: 0 }}
+                      animate={{ pathLength: 1, opacity: 1 }}
+                      transition={{
+                        duration: 2,
+                        repeat: Number.POSITIVE_INFINITY,
+                      }}
+                    >
+                      <svg
+                        className="absolute inset-0 w-full h-full"
+                        viewBox="0 0 100 100"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <motion.rect
+                          x="0"
+                          y="0"
+                          width="100"
+                          height="100"
+                          stroke="url(#laser-gradient-red)"
+                          strokeWidth="0.5"
+                          strokeLinecap="round"
+                          initial={{ pathLength: 0 }}
+                          animate={{ pathLength: 1 }}
+                          transition={{
+                            duration: 2,
+                            repeat: Number.POSITIVE_INFINITY,
+                          }}
+                        />
+                        <defs>
+                          <linearGradient
+                            id="laser-gradient-red"
+                            x1="0%"
+                            y1="0%"
+                            x2="100%"
+                            y2="100%"
+                          >
+                            <stop
+                              offset="0%"
+                              stopColor="#0070F3"
+                              stopOpacity="0"
+                            />
+                            <stop
+                              offset="50%"
+                              stopColor="#EF4444"
+                              stopOpacity="1"
+                            />
+                            <stop
+                              offset="100%"
+                              stopColor="#0070F3"
+                              stopOpacity="0"
+                            />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                    </motion.div>
+                  </div>
+                </Link>
               </StaggeredItem>
             </StaggeredList>
 
@@ -746,97 +744,99 @@ export default function Home() {
               staggerDelay={0.15}
             >
               <StaggeredItem>
-                <div className="relative h-full group">
-                  <Card className="bg-zinc-900/50 border-purple-900/50 overflow-hidden hover:border-purple-500/50 transition-all duration-300 h-full z-10 relative">
-                    <div className="relative h-36 overflow-hidden">
-                      <Image
-                        src="/neon-cityscape-vr.png"
-                        alt="VR Interfaces"
-                        fill
-                        className="object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
-                      <Badge className="absolute top-3 right-3 bg-blue-500/80 hover:bg-blue-500 text-white text-future">
-                        INTERFACE
-                      </Badge>
-                    </div>
-                    <CardHeader className="pb-2">
-                      <h3 className="text-lg font-bold tracking-tight text-white group-hover:text-cyan-400 transition-colors text-future text-metallic-cyan">
-                        VR Interfaces
-                      </h3>
-                    </CardHeader>
-                    <CardContent className="text-xs text-zinc-400">
-                      <p className="line-clamp-1">
-                        Next-gen neural interfaces for immersive experiences.
-                      </p>
-                    </CardContent>
-                    <CardFooter>
-                      <Button
-                        variant="link"
-                        className="px-0 text-purple-400 hover:text-purple-300 text-sm text-future"
-                      >
-                        READ <ChevronRight className="h-3 w-3 ml-1" />
-                      </Button>
-                    </CardFooter>
-                  </Card>
-                  <motion.div
-                    className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100"
-                    initial={{ pathLength: 0, opacity: 0 }}
-                    animate={{ pathLength: 1, opacity: 1 }}
-                    transition={{
-                      duration: 2,
-                      repeat: Number.POSITIVE_INFINITY,
-                    }}
-                  >
-                    <svg
-                      className="absolute inset-0 w-full h-full"
-                      viewBox="0 0 100 100"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <motion.rect
-                        x="0"
-                        y="0"
-                        width="100"
-                        height="100"
-                        stroke="url(#laser-gradient-blue)"
-                        strokeWidth="0.5"
-                        strokeLinecap="round"
-                        initial={{ pathLength: 0 }}
-                        animate={{ pathLength: 1 }}
-                        transition={{
-                          duration: 2,
-                          repeat: Number.POSITIVE_INFINITY,
-                        }}
-                      />
-                      <defs>
-                        <linearGradient
-                          id="laser-gradient-blue"
-                          x1="0%"
-                          y1="0%"
-                          x2="100%"
-                          y2="100%"
+                <Link href="/blog/neural-revolution" className="block h-full">
+                  <div className="relative h-full group">
+                    <Card className="bg-zinc-900/50 border-purple-900/50 overflow-hidden hover:border-purple-500/50 transition-all duration-300 h-full z-10 relative">
+                      <div className="relative h-36 overflow-hidden">
+                        <Image
+                          src="/neon-cityscape-vr.png"
+                          alt="VR Interfaces"
+                          fill
+                          className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
+                        <Badge className="absolute top-3 right-3 bg-blue-500/80 hover:bg-blue-500 text-white text-future">
+                          INTERFACE
+                        </Badge>
+                      </div>
+                      <CardHeader className="pb-2">
+                        <h3 className="text-lg font-bold tracking-tight text-white group-hover:text-cyan-400 transition-colors text-future text-metallic-cyan">
+                          VR Interfaces
+                        </h3>
+                      </CardHeader>
+                      <CardContent className="text-xs text-zinc-400">
+                        <p className="line-clamp-1">
+                          Next-gen neural interfaces for immersive experiences.
+                        </p>
+                      </CardContent>
+                      <CardFooter>
+                        <Button
+                          variant="link"
+                          className="px-0 text-purple-400 hover:text-purple-300 text-sm text-future"
                         >
-                          <stop
-                            offset="0%"
-                            stopColor="#0070F3"
-                            stopOpacity="0"
-                          />
-                          <stop
-                            offset="50%"
-                            stopColor="#3B82F6"
-                            stopOpacity="1"
-                          />
-                          <stop
-                            offset="100%"
-                            stopColor="#0070F3"
-                            stopOpacity="0"
-                          />
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                  </motion.div>
-                </div>
+                          READ <ChevronRight className="h-3 w-3 ml-1" />
+                        </Button>
+                      </CardFooter>
+                    </Card>
+                    <motion.div
+                      className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100"
+                      initial={{ pathLength: 0, opacity: 0 }}
+                      animate={{ pathLength: 1, opacity: 1 }}
+                      transition={{
+                        duration: 2,
+                        repeat: Number.POSITIVE_INFINITY,
+                      }}
+                    >
+                      <svg
+                        className="absolute inset-0 w-full h-full"
+                        viewBox="0 0 100 100"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <motion.rect
+                          x="0"
+                          y="0"
+                          width="100"
+                          height="100"
+                          stroke="url(#laser-gradient-blue)"
+                          strokeWidth="0.5"
+                          strokeLinecap="round"
+                          initial={{ pathLength: 0 }}
+                          animate={{ pathLength: 1 }}
+                          transition={{
+                            duration: 2,
+                            repeat: Number.POSITIVE_INFINITY,
+                          }}
+                        />
+                        <defs>
+                          <linearGradient
+                            id="laser-gradient-blue"
+                            x1="0%"
+                            y1="0%"
+                            x2="100%"
+                            y2="100%"
+                          >
+                            <stop
+                              offset="0%"
+                              stopColor="#0070F3"
+                              stopOpacity="0"
+                            />
+                            <stop
+                              offset="50%"
+                              stopColor="#3B82F6"
+                              stopOpacity="1"
+                            />
+                            <stop
+                              offset="100%"
+                              stopColor="#0070F3"
+                              stopOpacity="0"
+                            />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                    </motion.div>
+                  </div>
+                </Link>
               </StaggeredItem>
             </StaggeredList>
 
@@ -847,98 +847,100 @@ export default function Home() {
               staggerDelay={0.15}
             >
               <StaggeredItem>
-                <div className="relative h-full group">
-                  <Card className="bg-zinc-900/50 border-purple-900/50 overflow-hidden hover:border-purple-500/50 transition-all duration-300 h-full z-10 relative">
-                    <div className="relative h-36 overflow-hidden">
-                      <Image
-                        src="/neon-cityscape.png"
-                        alt="AI Art Revolution"
-                        fill
-                        className="object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
-                      <Badge className="absolute top-3 right-3 bg-purple-500/80 hover:bg-purple-500 text-white text-future">
-                        CREATIVITY
-                      </Badge>
-                    </div>
-                    <CardHeader className="pb-2">
-                      <h3 className="text-lg font-bold tracking-tight text-white group-hover:text-cyan-400 transition-colors text-future text-metallic-gradient">
-                        AI Art Revolution
-                      </h3>
-                    </CardHeader>
-                    <CardContent className="text-xs text-zinc-400">
-                      <p className="line-clamp-1">
-                        How artificial intelligence is redefining creative
-                        expression.
-                      </p>
-                    </CardContent>
-                    <CardFooter>
-                      <Button
-                        variant="link"
-                        className="px-0 text-purple-400 hover:text-purple-300 text-sm text-future"
-                      >
-                        READ <ChevronRight className="h-3 w-3 ml-1" />
-                      </Button>
-                    </CardFooter>
-                  </Card>
-                  <motion.div
-                    className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100"
-                    initial={{ pathLength: 0, opacity: 0 }}
-                    animate={{ pathLength: 1, opacity: 1 }}
-                    transition={{
-                      duration: 2,
-                      repeat: Number.POSITIVE_INFINITY,
-                    }}
-                  >
-                    <svg
-                      className="absolute inset-0 w-full h-full"
-                      viewBox="0 0 100 100"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <motion.rect
-                        x="0"
-                        y="0"
-                        width="100"
-                        height="100"
-                        stroke="url(#laser-gradient-purple)"
-                        strokeWidth="0.5"
-                        strokeLinecap="round"
-                        initial={{ pathLength: 0 }}
-                        animate={{ pathLength: 1 }}
-                        transition={{
-                          duration: 2,
-                          repeat: Number.POSITIVE_INFINITY,
-                        }}
-                      />
-                      <defs>
-                        <linearGradient
-                          id="laser-gradient-purple"
-                          x1="0%"
-                          y1="0%"
-                          x2="100%"
-                          y2="100%"
+                <Link href="/blog/neural-revolution" className="block h-full">
+                  <div className="relative h-full group">
+                    <Card className="bg-zinc-900/50 border-purple-900/50 overflow-hidden hover:border-purple-500/50 transition-all duration-300 h-full z-10 relative">
+                      <div className="relative h-36 overflow-hidden">
+                        <Image
+                          src="/neon-cityscape.png"
+                          alt="AI Art Revolution"
+                          fill
+                          className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
+                        <Badge className="absolute top-3 right-3 bg-purple-500/80 hover:bg-purple-500 text-white text-future">
+                          CREATIVITY
+                        </Badge>
+                      </div>
+                      <CardHeader className="pb-2">
+                        <h3 className="text-lg font-bold tracking-tight text-white group-hover:text-cyan-400 transition-colors text-future text-metallic-gradient">
+                          AI Art Revolution
+                        </h3>
+                      </CardHeader>
+                      <CardContent className="text-xs text-zinc-400">
+                        <p className="line-clamp-1">
+                          How artificial intelligence is redefining creative
+                          expression.
+                        </p>
+                      </CardContent>
+                      <CardFooter>
+                        <Button
+                          variant="link"
+                          className="px-0 text-purple-400 hover:text-purple-300 text-sm text-future"
                         >
-                          <stop
-                            offset="0%"
-                            stopColor="#0070F3"
-                            stopOpacity="0"
-                          />
-                          <stop
-                            offset="50%"
-                            stopColor="#8B5CF6"
-                            stopOpacity="1"
-                          />
-                          <stop
-                            offset="100%"
-                            stopColor="#0070F3"
-                            stopOpacity="0"
-                          />
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                  </motion.div>
-                </div>
+                          READ <ChevronRight className="h-3 w-3 ml-1" />
+                        </Button>
+                      </CardFooter>
+                    </Card>
+                    <motion.div
+                      className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100"
+                      initial={{ pathLength: 0, opacity: 0 }}
+                      animate={{ pathLength: 1, opacity: 1 }}
+                      transition={{
+                        duration: 2,
+                        repeat: Number.POSITIVE_INFINITY,
+                      }}
+                    >
+                      <svg
+                        className="absolute inset-0 w-full h-full"
+                        viewBox="0 0 100 100"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <motion.rect
+                          x="0"
+                          y="0"
+                          width="100"
+                          height="100"
+                          stroke="url(#laser-gradient-purple)"
+                          strokeWidth="0.5"
+                          strokeLinecap="round"
+                          initial={{ pathLength: 0 }}
+                          animate={{ pathLength: 1 }}
+                          transition={{
+                            duration: 2,
+                            repeat: Number.POSITIVE_INFINITY,
+                          }}
+                        />
+                        <defs>
+                          <linearGradient
+                            id="laser-gradient-purple"
+                            x1="0%"
+                            y1="0%"
+                            x2="100%"
+                            y2="100%"
+                          >
+                            <stop
+                              offset="0%"
+                              stopColor="#0070F3"
+                              stopOpacity="0"
+                            />
+                            <stop
+                              offset="50%"
+                              stopColor="#8B5CF6"
+                              stopOpacity="1"
+                            />
+                            <stop
+                              offset="100%"
+                              stopColor="#0070F3"
+                              stopOpacity="0"
+                            />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                    </motion.div>
+                  </div>
+                </Link>
               </StaggeredItem>
             </StaggeredList>
           </div>
