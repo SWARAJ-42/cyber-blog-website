@@ -67,7 +67,7 @@ This project is a fully functional blog website template featuring a cyberpunk-i
 
 ## Project Structure
 
-\`\`\`
+```
 cyber-blog-website/
 ├── app/                  # Next.js app router pages
 │   ├── blog/             # Blog post pages
@@ -80,7 +80,7 @@ cyber-blog-website/
 ├── hooks/                # Custom React hooks
 ├── public/               # Static assets
 └── styles/               # Global styles
-\`\`\`
+```
 
 ## Customization
 
